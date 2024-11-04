@@ -1,0 +1,16 @@
+{
+  "name": "api_nodes",
+  "version": "1.0.0",
+  "description": "Rest API Bield In Node Js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rahul Salve",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.21.1",
+    "mongoose": "^8.7.3"
+  }
+}
