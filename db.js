@@ -1,6 +1,10 @@
 const mongoose = require('mongoose');
+require('dotenv').config();
 
-const mongoURL = 'mongodb://localhost:27017/hotels';
+//const mongoURL = 'mongodb://localhost:27017/hotels';
+
+//const mongoURL = process.env.MONGOOB_URL_LOCAL;
+const mongoURL = process.env.MONGOOB_URL;
 
 // Deprecated options removed from the connection
 mongoose.connect(mongoURL);
